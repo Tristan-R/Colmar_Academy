@@ -7,7 +7,7 @@ body {
 /* Header */
 header {
   height: 64px;
-  padding: 0 24px;
+  padding: 0 1.5em;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -31,12 +31,33 @@ header div span {
 }
 
 header ul li {
-  margin-left: 16px;
+  margin-left: 1em;
   display: inline;
 }
 
+/* Main Body */
+/* Banner */
+.banner {
+  padding: 2em 1.5em;
+  background-color: rgb(216, 216, 216);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
 
-/* For developement use */
-header {
-  border-bottom: 1px solid black;
+.banner img {
+  width: 60%;
+  height: auto;
+  margin-right: 1.5em;
+}
+
+.banner .text-content {
+  margin: auto 0 auto 0;
+}
+
+.banner .button {
+  padding: 8px;
+  color: white;
+  background-color: rgb(74, 74, 74);
+  text-align: center;
 }
