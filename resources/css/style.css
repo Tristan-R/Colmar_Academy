@@ -205,3 +205,21 @@ header ul li {
 .block .text-content span {
   padding-bottom: 0.5em;
 }
+
+/* Thesis */
+/* Uses the feature section as in the information section */
+
+/* Footer */
+footer {
+  height: 4em;
+  padding: 1em 1.5em;
+  border-top: 1px solid lightgrey;
+  background-color: rgb(243, 245, 245);
+  display: flex;
+  justify-content: space-between;
+}
+
+footer ul li {
+  margin-left: 0.75em;
+  display: inline;
+}
