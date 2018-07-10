@@ -61,3 +61,58 @@ header ul li {
   background-color: rgb(74, 74, 74);
   text-align: center;
 }
+
+/* Information */
+
+.information {
+  display: flex;
+}
+
+.information .feature {
+  width: 60%;
+  padding: 2em 1.5em;
+}
+
+.information .feature img {
+  width: 100%;
+  margin-bottom: 32px;
+}
+
+.information .feature p {
+  margin: 1.5em 0;
+}
+
+.information .column {
+  padding: 2em 0;
+  width: 40%;
+  border-left: 1px solid lightgrey;
+}
+
+.column-item {
+  padding: 1em;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.column-item img {
+  width: 35%;
+  height: auto;
+}
+
+.column-item .text-content {
+  padding: 1.5em 1em;
+}
+
+.column-item .text-content span {
+  margin: 0.5em 0;
+}
+
+.column-item .text-content span,
+.column-item .text-content a {
+  display: block;
+}
+
+.column-item:last-child {
+  background-color: rgb(216, 216, 216);
+}
