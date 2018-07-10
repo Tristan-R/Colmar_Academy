@@ -120,3 +120,50 @@ header ul li {
 .column-item:last-child {
   background-color: rgb(216, 216, 216);
 }
+
+/* Course */
+.course {
+  background-color: rgb(234, 235, 236);
+  text-align: center;
+}
+.course h3 {
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+
+.grid {
+  padding: 0 3.5em 1em 3.5em;
+}
+
+.row {
+  display: flex;
+}
+
+.block {
+  margin: 1em;
+  background-color: white;
+  text-align: left;
+  flex-basis: 532px;
+  flex-shrink: 1;
+}
+
+.block img {
+  width: 100%;
+  height: auto;
+}
+
+.block .text-content {
+  padding: 1em;
+}
+
+.block .text-content h4 {
+  padding-bottom: 1em;
+}
+
+.block .text-content h5 {
+  padding: 0.5em 0;
+}
+
+.block .text-content span {
+  padding-bottom: 0.5em;
+}
