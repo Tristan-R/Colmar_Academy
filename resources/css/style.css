@@ -64,6 +64,7 @@ header ul li {
 
 /* Information */
 .information {
+  background-color: rgb(243, 245, 245);
   display: flex;
 }
 
