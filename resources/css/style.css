@@ -144,7 +144,6 @@ header ul li {
   background-color: white;
   text-align: left;
   flex-basis: 532px;
-  flex-shrink: 1;
 }
 
 .block img {
