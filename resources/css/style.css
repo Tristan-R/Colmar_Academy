@@ -3,6 +3,23 @@ body {
   font-size: 16px;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  padding: 2em 0 2em 1.5em;
+}
+
+.container h3 {
+  padding-bottom: 2em;
+  text-align: center;
+}
+
+.text-content {
+  text-align: left;
+}
 
 /* Header */
 header {
@@ -38,7 +55,6 @@ header ul li {
 /* Main Body */
 /* Banner */
 .banner {
-  padding: 2em 1.5em;
   background-color: rgb(216, 216, 216);
   display: flex;
   justify-content: flex-start;
@@ -63,29 +79,47 @@ header ul li {
 }
 
 /* Information */
-.information {
+/* Feature Layout */
+.feature-layout {
   background-color: rgb(243, 245, 245);
+}
+
+.feature-layout h3 {
+  padding-top: 2em;
+  text-align: center;
+}
+
+.feature-layout .content-body {
   display: flex;
 }
 
-.information .feature {
+.content-body .feature {
   width: 60%;
   padding: 2em 1.5em;
 }
 
-.information .feature img {
+.content-body .feature img,
+.content-body .feature video {
   width: 100%;
-  margin-bottom: 32px;
+  margin-bottom: 2em;
 }
 
-.information .feature p {
-  margin: 1.5em 0;
+.content-body .feature h2 {
+  margin: 0 0 1.5em 0;
 }
 
-.information .column {
-  padding: 2em 0;
+.content-body .feature p {
+  margin: 0.5em 0 0 0;
+}
+
+.content-body .feature span {
+  display: block;
+  margin-top: 2em;
+}
+
+.content-body .column {
+  padding: 1em 0 2em 0;
   width: 40%;
-  border-left: 1px solid lightgrey;
 }
 
 .column-item {
@@ -108,42 +142,47 @@ header ul li {
   margin: 0.5em 0;
 }
 
+.column-item .text-content .link {
+  color: blue;
+}
+
+.column-item .text-content .link:hover {
+  text-decoration: underline;
+}
+
 .column-item .text-content span,
 .column-item .text-content a {
   display: block;
 }
 
-.column-item:first-child {
-  border-bottom: 1px solid lightgrey;
-}
-
-.column-item:last-child {
+.column-item:hover {
   background-color: rgb(216, 216, 216);
 }
 
 /* Course */
 .course {
   background-color: rgb(234, 235, 236);
-  text-align: center;
-}
-.course h3 {
-  padding-top: 2em;
-  padding-bottom: 1em;
 }
 
 .grid {
-  padding: 0 3.5em 1em 3.5em;
+  padding: 0 4.5em 0 3em;
 }
 
 .row {
   display: flex;
 }
 
+.row:first-child {
+  margin-bottom: 2em;
+}
+
 .block {
-  margin: 1em;
   background-color: white;
-  text-align: left;
   flex-basis: 532px;
+}
+
+.block:nth-child(2n) {
+  margin: 0 2em;
 }
 
 .block img {
