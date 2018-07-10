@@ -113,6 +113,10 @@ header ul li {
   display: block;
 }
 
+.column-item:first-child {
+  border-bottom: 1px solid lightgrey;
+}
+
 .column-item:last-child {
   background-color: rgb(216, 216, 216);
 }
