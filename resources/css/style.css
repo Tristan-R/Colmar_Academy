@@ -346,3 +346,26 @@ footer ul li {
     display: none;
   }
 }
+
+@media only screen and (max-width: 540px) {
+  .container {
+    padding: 0;
+  }
+
+  .container h3 {
+    padding-top: 2em;
+  }
+
+  /* Header */
+  header .logo {
+    display: none;
+  }
+
+  header .mobile img:first-child {
+    display: block;
+  }
+
+  header .mobile {
+    width: 100%;
+  }
+}
