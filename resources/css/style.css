@@ -368,4 +368,14 @@ footer ul li {
   header .mobile {
     width: 100%;
   }
+
+  /* Banner */
+  .banner {
+    flex-direction: column;
+  }
+
+  .banner img {
+    width: 100%;
+    margin-right: 0;
+  }
 }
