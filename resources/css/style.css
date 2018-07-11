@@ -231,7 +231,6 @@ footer ul li {
 
 
 /* Tablet Site */
-
 @media only screen and (max-width: 980px) {
 
   /* Feature Layout - Information */
@@ -245,9 +244,7 @@ footer ul li {
     display: flex;
   }
 
-
-
-  /* Feature Layout - Column */
+  /* Feature Layout - Information - Column */
   .information .column-item {
     flex-direction: column;
     align-items: baseline;
@@ -271,5 +268,32 @@ footer ul li {
     height: auto;
     padding-top: 1em;
   }
+}
 
+@media only screen and (max-width: 820px) {
+
+  /* Course */
+  .grid {
+    padding: 0 1.5em 0 0;
+  }
+
+  .row:first-child {
+    margin-bottom: 1em;
+  }
+
+  .block:nth-child(2n) {
+    margin: 0 1em;
+  }
+
+  .block .text-content h4 {
+    padding: 0;
+  }
+
+  .block .text-content h5 {
+    display: none;
+  }
+
+  .block .text-content span {
+    display: none;
+  }
 }
