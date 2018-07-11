@@ -52,6 +52,10 @@ header ul li {
   display: inline;
 }
 
+header .mobile {
+  display: none;
+}
+
 /* Main Body */
 /* Banner */
 .banner {
@@ -312,6 +316,23 @@ footer ul li {
   }
 
   .block .text-content span {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  /* Header */
+  header .desktop {
+    display: none;
+  }
+
+  header .mobile {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  header .mobile img:first-child {
     display: none;
   }
 }
