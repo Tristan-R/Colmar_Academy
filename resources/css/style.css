@@ -159,8 +159,7 @@ header .mobile {
   text-decoration: underline;
 }
 
-.column-item .text-content span,
-.column-item .text-content a {
+.column-item .text-content span {
   display: block;
 }
 
