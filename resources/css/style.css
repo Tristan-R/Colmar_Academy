@@ -272,9 +272,6 @@ footer ul li {
     height: auto;
     padding-top: 1em;
   }
-}
-
-@media only screen and (max-width: 820px) {
 
   /* Course */
   .grid {
@@ -288,7 +285,11 @@ footer ul li {
   .block:nth-child(2n) {
     margin: 0 1em;
   }
+}
 
+@media only screen and (max-width: 820px) {
+
+  /* Course */
   .block .text-content h4 {
     padding: 0;
   }
