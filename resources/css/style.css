@@ -464,4 +464,13 @@ footer ul li {
     padding: 2em 0 0 0;
     line-height: 0;
   }
+
+  /* Footer */
+  footer {
+    height: auto;
+  }
+
+  footer ul {
+    display: none;
+  }
 }
