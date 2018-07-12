@@ -26,6 +26,7 @@ a {
 header {
   height: 4em;
   padding: 0 1.5em;
+  background-color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -42,7 +43,7 @@ header div img {
   width: auto;
 }
 
-header div span {
+header .logo span {
   font-size: 1.2em;
   text-transform: uppercase;
   /*color: #c7c7c7;*/
@@ -54,6 +55,11 @@ header ul li {
 }
 
 header .mobile {
+  display: none;
+}
+
+/* Animation */
+.animation {
   display: none;
 }
 
@@ -347,7 +353,28 @@ footer ul li {
     justify-content: space-between;
   }
 
-  header .mobile img:first-child {
+  header .mobile .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header .mobile .item span {
+    position: absolute;
+    top: 4em;
+    padding: 0.3em;
+    opacity: 0;
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    background-color: white;
+  }
+
+  header .mobile .item img:hover + span {
+    opacity: 1;
+    transition: all 0.5s ease-out;
+  }
+
+  header .mobile div:first-child {
     display: none;
   }
 }
@@ -366,7 +393,7 @@ footer ul li {
     display: none;
   }
 
-  header .mobile img:first-child {
+  header .mobile div:first-child {
     display: block;
   }
 
