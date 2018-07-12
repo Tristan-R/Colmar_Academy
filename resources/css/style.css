@@ -458,4 +458,10 @@ footer ul li {
   .block img {
     display: none;
   }
+
+  /* Feature Layout - Thesis */
+  .thesis .content-body .feature {
+    padding: 2em 0 0 0;
+    line-height: 0;
+  }
 }
