@@ -12,6 +12,7 @@ a {
 
 .text-content {
   text-align: left;
+  color: hsl(0, 0%, 20%);
 }
 
 h1 {
@@ -30,6 +31,7 @@ h3 {
   font-family: 'Roboto Slab', serif;
   font-size: 1.5rem;
   font-weight: bold;
+  color: hsl(0, 0%, 20%);
 }
 
 h4 {
@@ -78,11 +80,12 @@ header div img {
 header .logo span {
   font-size: 1.1rem;
   text-transform: uppercase;
-  /*color: #c7c7c7;*/
+  color: hsl(0, 0%, 70%);
 }
 
 header .logo strong {
   font-weight: 700;
+  color: hsl(0, 0%, 20%);
 }
 
 header ul li {
@@ -196,7 +199,7 @@ header .mobile {
 }
 
 .column-item .text-content .link {
-  color: blue;
+  color: hsl(240, 100%, 70%);
 }
 
 .column-item .text-content .link:hover {
