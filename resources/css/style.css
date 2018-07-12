@@ -412,4 +412,14 @@ footer ul li {
     width: 100%;
     margin-right: 0;
   }
+
+  /* Feature Layout - Information */
+  .information .content-body .column {
+    padding: 0.5em 0.5em 1.5em 0.5em;
+    flex-direction: column;
+  }
+
+  .information .column a:nth-child(2n) {
+    margin: 0.5em 0;
+  }
 }
