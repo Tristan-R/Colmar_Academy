@@ -422,4 +422,40 @@ footer ul li {
   .information .column a:nth-child(2n) {
     margin: 0.5em 0;
   }
+
+  /* Course */
+  .course {
+    background-color: rgb(243, 245, 245);
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+  }
+
+  .grid {
+    padding: 0 1em 2em 1em;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .row:first-child {
+    margin-bottom: 0.5em;
+  }
+
+  .row a {
+    background-color: rgb(216, 216, 216);
+    flex-basis: auto;
+  }
+
+  .row a:nth-child(2n) {
+    margin: 0.5em 0;
+  }
+
+  .block {
+    height: auto;
+  }
+
+  .block img {
+    display: none;
+  }
 }
