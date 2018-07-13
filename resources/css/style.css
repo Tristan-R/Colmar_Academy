@@ -274,16 +274,6 @@ header .mobile {
   background-color: hsl(0, 0%, 100%);
 }
 
-.row a:hover .block {
-  background-color: hsl(0, 0%, 85%);
-  opacity: 0.9;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
-}
-
-.row a:nth-child(2n) {
-  margin: 0 2rem;
-}
-
 .block img {
   width: 100%;
   height: auto;
@@ -304,6 +294,16 @@ header .mobile {
 
 .block .text-content span {
   padding-bottom: 0.5rem;
+}
+
+.row a:hover .block {
+  background-color: hsl(0, 0%, 85%);
+  opacity: 0.9;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+}
+
+.row a:nth-child(2n) {
+  margin: 0 2rem;
 }
 
 /* Thesis */
