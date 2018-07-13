@@ -274,10 +274,14 @@ header .mobile {
   background-color: hsl(0, 0%, 100%);
 }
 
+.block .darker {
+  background-color: black;
+  line-height: 0;
+}
+
 .block img {
   width: 100%;
   height: auto;
-  background-color: black;
 }
 
 .block .text-content {
@@ -298,6 +302,9 @@ header .mobile {
 
 .row a:hover .block {
   background-color: hsl(0, 0%, 85%);
+}
+
+.row a:hover .block img {
   opacity: 0.9;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
 }
