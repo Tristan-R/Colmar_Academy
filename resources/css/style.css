@@ -166,6 +166,7 @@ header .mobile {
 .content-body .feature span {
   display: block;
   margin-top: 2rem;
+  font-size: 0.75rem;
 }
 
 /* Feature Layout - Column */
