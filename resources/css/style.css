@@ -680,6 +680,7 @@ footer ul li {
 
   .block {
     height: auto;
+    border-radius: 0;
   }
 
   .block img {
