@@ -282,6 +282,7 @@ header .mobile {
 }
 
 .column a {
+  border: 2px solid transparent;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
@@ -332,6 +333,10 @@ header .mobile {
   background-color: rgb(216, 216, 216);
 }
 
+.column a:active {
+  border: 2px solid hsl(195, 53%, 60%);
+}
+
 /* Course */
 .course {
   padding: 2rem 0 2rem 1.5rem;
@@ -365,6 +370,11 @@ header .mobile {
 .block {
   height: 100%;
   background-color: hsl(0, 0%, 100%);
+  -webkit-transition: box-shadow 1s 0.5s,
+    background-color 1s;
+  transition:
+    box-shadow 1s 0.5s,
+    background-color 1s;
 }
 
 .block .darker {
@@ -375,6 +385,8 @@ header .mobile {
 .block img {
   width: 100%;
   height: auto;
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
 }
 
 .block .text-content {
@@ -395,6 +407,7 @@ header .mobile {
 
 .row a:hover .block {
   background-color: hsl(0, 0%, 85%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .row a:hover .block img {
