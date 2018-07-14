@@ -140,9 +140,97 @@ header .mobile {
 .banner .button {
   padding: 0.5rem;
   margin-top: 1.5rem;
-  color: white;
-  background-color: rgb(74, 74, 74);
+  background-color: hsl(0, 0%, 29%);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.banner .button div {
+  height: auto;
+  width: 4rem;
+  position: relative;
+  color: hsl(0, 0%, 100%);
   text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.banner .button div span {
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.banner .button span {
+  position: absolute;
+  left: 0;
+  opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+.banner .button i {
+  position: relative;
+  left: 100%;
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+
+.banner .button:hover {
+  background-color: hsl(0, 0%, 39%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.banner .button:hover span {
+  left: -100%;
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  -webkit-transition: opacity 0.4s 0.5s,
+    left 0.5s 0.5s;
+  transition:
+    opacity 0.4s 0.5s,
+    left 0.5s 0.5s;
+}
+
+.banner .button:not(:hover) span {
+  -webkit-transition: opacity 0.4s 1s,
+    left 0.5s 1s;
+  transition:
+    opacity 0.4s 1s,
+    left 0.5s 1s;
+}
+
+.banner .button:hover i {
+  left: 0;
+  opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  -webkit-transition: opacity 0.4s 1s,
+    left 0.5s 1s;
+  transition:
+    opacity 0.4s 1s,
+    left 0.5s 1s;
+}
+
+.banner .button:not(:hover) i {
+  -webkit-transition: opacity 0.4s 0.5s,
+    left 0.5s 0.5s;
+  transition:
+    opacity 0.4s 0.5s,
+    left 0.5s 0.5s;
 }
 
 /* Information */
@@ -440,13 +528,13 @@ footer ul li {
     border-bottom-left-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
     background-color: white;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
   }
 
   header .mobile .content .item img:hover + span {
     opacity: 1;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-    -webkit-transition: all 0.5s ease-out;
-    transition: all 0.5s ease-out;
   }
 
   header .mobile .content div:first-child {
