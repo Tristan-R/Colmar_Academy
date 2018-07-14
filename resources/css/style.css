@@ -140,6 +140,7 @@ header .mobile {
 .banner .button {
   padding: 0.5rem;
   margin-top: 1.5rem;
+  border-radius: 2rem;
   background-color: hsl(0, 0%, 29%);
   -webkit-transition: all 1s;
   transition: all 1s;
@@ -369,6 +370,7 @@ header .mobile {
 
 .block {
   height: 100%;
+  border-radius: 1rem;
   background-color: hsl(0, 0%, 100%);
   -webkit-transition: box-shadow 1s 0.5s,
     background-color 1s;
@@ -378,6 +380,8 @@ header .mobile {
 }
 
 .block .darker {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
   background-color: black;
   line-height: 0;
 }
@@ -385,6 +389,8 @@ header .mobile {
 .block img {
   width: 100%;
   height: auto;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
   -webkit-transition: opacity 1s;
   transition: opacity 1s;
 }
